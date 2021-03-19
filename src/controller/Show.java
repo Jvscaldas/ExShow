@@ -53,7 +53,7 @@ public class Show extends Thread {
 		int ingresso = 100;
 		int compra = 0;
 		if (ingresso > 0) {
-			compra = (int) ((Math.random() * 0) + 4);
+			compra = (int) ((Math.random() * 4 - 0) + 0);
 			System.out.println(compra + " ingressos comprados");
 			ingresso = ingresso - compra;
 		}
